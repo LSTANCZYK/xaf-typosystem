@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DigiPrint.Module.Model.Core.ModelBaseObject" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAIAAABAAAAAAAIABBAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Core\ModelBaseObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.19" />
+  </Class>
+  <Class Name="DigiPrint.Module.Model.Core.SystemFactory" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Model\Core\XPOModelFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.Logic.ModelLogic" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAKAAAAAAAAAAAEBBAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Logic\ModelLogic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DevExpress.Persistent.BaseImpl.BaseObject" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DigiPrint.Module.Model.Core.ImplementationBaseObject">
+    <Position X="0.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Core\ImplementationBaseObject.cs</FileName>
+      <NewMemberFileName>Model\Core\PresentationBaseObject.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.Core.PresentationBaseObject">
+    <Position X="3.75" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Core\PresentationBaseObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.Core.BaseBusinessCase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAgAAAAAAAQQAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Core\BaseBusinessCase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DigiPrint.Module.ViewControllers.BaseViewController" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAAAACAAAACAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>PresentationControllers\BaseViewController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.Core.BaseBusinessSubjectManager">
+    <Position X="9.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Core\BusinessSubjectManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.Logic.DictionariesAndSettingsManager">
+    <Position X="10.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Model\Logic\DictionariesAndSettingsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.Logic.StoreManager">
+    <Position X="7.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AoABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>Model\Logic\StoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DigiPrint.Module.Model.Core.IModelObserver" Collapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Core\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DigiPrint.Module.Model.Core.IModelEntity" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAIABBAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Core\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DigiPrint.Module.Model.Core.IModelLogic" Collapsed="true">
+    <Position X="16" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Core\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

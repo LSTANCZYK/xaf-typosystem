@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{04D9D6BF-DE91-40D0-9FA1-5F63E4A35BF5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DigiPrint.Module</RootNamespace>
+    <AssemblyName>DigiPrint.Module</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EasyTest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EasyTest\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;EASYTEST</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v10.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.AuditTrail.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v10.1\10.1.6.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v10.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.CloneObject.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.CloneObject.v10.1\10.1.6.0__b88d1754d700e49a\DevExpress.ExpressApp.CloneObject.v10.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ConditionalAppearance.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v10.1\10.1.6.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v10.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ConditionalFormatting.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalFormatting.v10.1\10.1.6.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalFormatting.v10.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Security.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v10.1\10.1.6.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v10.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v10.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Objects.v10.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Validation.v10.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ViewVariantsModule.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v10.1\10.1.6.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v10.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v10.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v10.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v10.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v10.1.Linq, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\DevExpress.Xpo.v10.1.Linq\10.1.6.0__b88d1754d700e49a\DevExpress.Xpo.v10.1.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Core\BusinessSubjectManager.cs" />
+    <Compile Include="Model\Core\ImplementationBaseObject.cs" />
+    <Compile Include="Model\Core\PresentationBaseObject.cs" />
+    <Compile Include="Model\Core\Interfaces.cs" />
+    <Compile Include="Model\Core\ModelBaseObject.cs" />
+    <Compile Include="Model\Core\BaseBusinessCase.cs" />
+    <Compile Include="Model\CRMModule\Counteragent.cs" />
+    <Compile Include="Model\CRMModule\CounteragentImpl.cs" />
+    <Compile Include="Model\DictionariesAndSettings\MaterialWriteOffMethod.cs" />
+    <Compile Include="Model\Logic\BusinessCases\BС_InsertMaterialIncome.cs" />
+    <Compile Include="Model\Logic\BusinessCases\BС_InsertMaterialRemains.cs" />
+    <Compile Include="Model\Logic\BusinessCases\BС_InsertPrintedMaterialShipping.cs" />
+    <Compile Include="Model\Logic\DictionariesAndSettingsManager.cs" />
+    <Compile Include="Model\Logic\ModelLogic.cs" />
+    <Compile Include="Model\Core\XPOModelFactory.cs" />
+    <Compile Include="Model\Logic\StoreManager.cs" />
+    <Compile Include="Model\Logic\TestManager.cs" />
+    <Compile Include="Model\OperationsModule\Operation.cs" />
+    <Compile Include="Model\OperationsModule\OperationImpl.cs" />
+    <Compile Include="Model\OrderModule\Order.cs" />
+    <Compile Include="Model\OrderModule\OrderImpl.cs" />
+    <Compile Include="Model\StoreModule\Books.cs" />
+    <Compile Include="Model\StoreModule\Brochures.cs" />
+    <Compile Include="Model\StoreModule\Calendars.cs" />
+    <Compile Include="Model\StoreModule\PrintedMaterialRemains.cs" />
+    <Compile Include="Model\StoreModule\MaterialProcurementRequirementImpl.cs" />
+    <Compile Include="Model\StoreModule\MaterialProcurementRequirement.cs" />
+    <Compile Include="Model\StoreModule\MaterialWriteOffImpl.cs" />
+    <Compile Include="Model\StoreModule\MaterialIncomeImpl.cs" />
+    <Compile Include="Model\StoreModule\MaterialRemainsImpl.cs" />
+    <Compile Include="Model\StoreModule\MaterialManageInfo.cs" />
+    <Compile Include="Model\StoreModule\MaterialRemainsInStore.cs" />
+    <Compile Include="Model\StoreModule\MaterialRemains.cs" />
+    <Compile Include="Model\StoreModule\MaterialWriteOff.cs" />
+    <Compile Include="Model\StoreModule\PrintedMaterial.cs" />
+    <Compile Include="Model\StoreModule\PrintedMaterialInfo.cs" />
+    <Compile Include="Model\StoreModule\PrintedMaterialInfoImpl.cs" />
+    <Compile Include="Model\StoreModule\PrintedMaterialShipped.cs" />
+    <Compile Include="Model\StoreModule\PrintPlate.cs" />
+    <Compile Include="Model\StoreModule\Material.cs" />
+    <Compile Include="Model\StoreModule\MaterialIncome.cs" />
+    <Compile Include="Model\StoreModule\MaterialInfoImpl.cs" />
+    <Compile Include="Model\StoreModule\MaterialInfo.cs" />
+    <Compile Include="Model\StoreModule\Paper.cs" />
+    <Compile Include="Model\StoreModule\Store.cs" />
+    <Compile Include="Model\Test\CodeActivity1.cs" />
+    <Compile Include="Model\Test\CodeActivity2.cs" />
+    <Compile Include="Model\Test\DOChild.cs" />
+    <Compile Include="Model\Test\DOParent.cs" />
+    <Compile Include="Module.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Module.Designer.cs">
+      <DependentUpon>Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationControllers\BaseViewController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationControllers\BaseViewController.Designer.cs">
+      <DependentUpon>BaseViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationControllers\NewMaterialIncome_ViewController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationControllers\NewMaterialIncome_ViewController.Designer.cs">
+      <DependentUpon>NewMaterialIncome_ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationControllers\NewMaterial_ViewController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationControllers\NewMaterial_ViewController.Designer.cs">
+      <DependentUpon>NewMaterial_ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationControllers\NewPrintedMaterialShipping_ViewController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationControllers\NewPrintedMaterialShipping_ViewController.Designer.cs">
+      <DependentUpon>NewPrintedMaterialShipping_ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationControllers\TestDetailViewController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationControllers\TestDetailViewController.Designer.cs">
+      <DependentUpon>TestDetailViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Updater.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+    <EmbeddedResource Include="Module.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Module.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\DigiPrint.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Functional Tests\Config.xml" />
+    <Content Include="_lib\sqlceca35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_lib\sqlcecompact35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_lib\sqlceer35EN.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_lib\sqlceme35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_lib\sqlceoledb35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_lib\sqlceqp35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_lib\sqlcese35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Functional Tests\Sample.ets" />
+    <None Include="Model\Core\ClassDiagram.cd" />
+    <None Include="Model\StoreModule\Материалы.cd" />
+    <None Include="Model\StoreModule\Готовая продукция.cd" />
+    <None Include="NamespaceDependencies_Store.dgml" />
+    <None Include="PresentationControllers\ViewКонтроллеры.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SSCE">
+      <Guid>{CE4AACFA-3CFD-4028-B2D9-F272314F07C8}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

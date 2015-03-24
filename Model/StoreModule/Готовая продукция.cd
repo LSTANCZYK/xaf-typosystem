@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DigiPrint.Module.Model.StoreModule.PrintedMaterial">
+    <Position X="17.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\PrintedMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.PrintedMaterialInfo">
+    <Position X="10.75" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAAAAgAJAAEBAAAACAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\PrintedMaterialInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_implementationObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.PrintedMaterialInfoImpl">
+    <Position X="7.75" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEEAAEASAAAgApAEABAIAAiAAAAAAAQgAABQAQAAAAA=</HashCode>
+      <FileName>Model\StoreModule\PrintedMaterialInfoImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.Books">
+    <Position X="15.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\Books.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.Brochures">
+    <Position X="17.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\Brochures.cs</FileName>
+      <NewMemberFileName>Model\StoreModule\Books.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.Calendars">
+    <Position X="20" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\Calendars.cs</FileName>
+      <NewMemberFileName>Model\StoreModule\Books.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.PrintedMaterialShipped">
+    <Position X="9.25" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\PrintedMaterialShipped.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.PrintedMaterialRemains">
+    <Position X="12" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\PrintedMaterialRemains.cs</FileName>
+      <NewMemberFileName>Model\StoreModule\PrintedMaterialShipped.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

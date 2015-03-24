@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="DigiPrint" Logo="ExpressAppLogo">
+  <NavigationItems DefaultChildItemsDisplayStyle="List" StartupNavigationItem="0d16fd91-3fd6-4a61-b8a3-f17ea2be604f" NavigationStyle="TreeList">
+    <Items>
+      <Item Id="0d16fd91-3fd6-4a61-b8a3-f17ea2be604f" IsNewNode="True" Caption="Склад и материалы">
+        <Items IsNewNode="True">
+          <Item Id="PrintedMaterial_ListView" IsNewNode="True" ViewId="PrintedMaterial_ListView" Index="3" />
+          <Item Id="MaterialsNode" IsNewNode="True" Caption="Материалы" ViewId="Paper_ListView" Index="5">
+            <Items IsNewNode="True">
+              <Item Id="PaperNode" IsNewNode="True" ViewId="Paper_ListView" />
+            </Items>
+          </Item>
+          <Item Id="Store_ListView" IsNewNode="True" ViewId="Store_ListView" Index="10" Caption="Склады" />
+          <Item Id="MaterialIncome_ListView" IsNewNode="True" ViewId="MaterialIncome_ListView" Index="15" />
+          <Item Id="MaterialRemains_ListView" IsNewNode="True" ViewId="MaterialRemains_ListView" Index="20" />
+          <Item Id="MaterialWriteOff_ListView" IsNewNode="True" ViewId="MaterialWriteOff_ListView" Index="25" />
+          <Item Id="PrintedRemains_ListView" IsNewNode="True" ViewId="PrintedMaterialRemains_ListView" Index="30" />
+          <Item Id="PrintedShipped_ListView" IsNewNode="True" Index="35" ViewId="PrintedMaterialShipped_ListView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions CaptionWordWrap="Wrap" />
+  </Options>
+  <Views>
+    <ListView Id="MaterialRemains_ListView" GroupSummary="0" IsGroupPanelVisible="True" AutoExpandAllGroups="True">
+      <Columns>
+        <ColumnInfo Id="Amount" Index="-1" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

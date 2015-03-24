@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialWriteOff">
+    <Position X="14.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\MaterialWriteOff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialManageInfo">
+    <Position X="16.75" Y="12" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Model\StoreModule\MaterialManageInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialWriteOffImpl">
+    <Position X="1.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAA=</HashCode>
+      <FileName>Model\StoreModule\MaterialWriteOffImpl.cs</FileName>
+      <NewMemberFileName>Model\StoreModule\MaterialIncomeImpl.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialRemainsInStore">
+    <Position X="16.5" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\MaterialRemainsInStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialIncome">
+    <Position X="19.25" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAIAAAAAAAgAAAEAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\MaterialIncome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialInfo">
+    <Position X="13.75" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAAQAAAIAAEAAAAACAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\MaterialInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialRemains">
+    <Position X="8.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAEAQAAAAIAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Model\StoreModule\MaterialRemains.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialRemainsImpl">
+    <Position X="4" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAQAAAAAAQAAAAIAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Model\StoreModule\MaterialRemainsImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialInfoImpl">
+    <Position X="6" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AkEAAAASAQAAAoAAAAAAAACAAAAAAAQgCABQAQAAAAA=</HashCode>
+      <FileName>Model\StoreModule\MaterialInfoImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialProcurementRequirementImpl">
+    <Position X="7" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAg=</HashCode>
+      <FileName>Model\StoreModule\MaterialProcurementRequirementImpl.cs</FileName>
+      <NewMemberFileName>Model\StoreModule\MaterialIncomeImpl.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialProcurementRequirement">
+    <Position X="11" Y="12" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\StoreModule\MaterialProcurementRequirement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigiPrint.Module.Model.StoreModule.MaterialIncomeImpl">
+    <Position X="10.5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAEAAAAgAA=</HashCode>
+      <FileName>Model\StoreModule\MaterialIncomeImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
